@@ -1,4 +1,4 @@
-# Orion
+# Orion Boilerplate
 
 ![ci badge](https://circleci.com/gh/project-orion/orion.svg?style=shield&circle-token=e50843b98b7da48e495b6013ed5bba93176c9acd)
 
@@ -21,8 +21,8 @@ postgres -D /usr/local/var/postgres
 ```
 Use this to create a local database to which the app will connect:
 ```
-createdb orion
-psql -d orion
+createdb boilerplate
+psql -d boilerplate
 ```
 Finally, copy-paste this SQL script in order to init roles in the database:
 ```
