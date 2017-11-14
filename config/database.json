@@ -1,0 +1,9 @@
+{
+    "ci": {
+        "username": "ubuntu",
+        "password": null,
+        "database": "circle_test",
+        "host": "localhost",
+        "dialect": "postgres"
+    }
+}
