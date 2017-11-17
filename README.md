@@ -2,6 +2,15 @@
 
 ![ci badge](https://circleci.com/gh/project-orion/orion.svg?style=shield&circle-token=e50843b98b7da48e495b6013ed5bba93176c9acd)
 
+A Node Boilerplate featuring:
+* ExpressJS
+* Sequelize
+* React
+* Redux
+* Typescript 2.4
+* Webpack deployment
+* 
+
 ## Code structure
 * Front end code is located under `./app`; it builds a webpack bundle
 * Backend code is located under `./server`; it builds an expressJS server
@@ -9,7 +18,7 @@
 
 ## Requirements
 ### Installing node modules
-You have to run `nmp install` from `./` and from `./app` so as to install the dependencies of this project.
+You have to run `npm install` from `./` and from `./app` so as to install the dependencies of this project.
 
 ### Running a local Postgres database
 In order to run this projet locally, you need to have a local Postgres database populated with data that follows the schema which is expected by the backend.
