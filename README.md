@@ -9,7 +9,6 @@ A Node Boilerplate featuring:
 * Redux
 * Typescript 2.4
 * Webpack deployment
-*
 
 ## Code structure
 * Front end code is located under `./app`; it builds a webpack bundle
