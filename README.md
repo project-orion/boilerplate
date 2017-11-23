@@ -9,7 +9,7 @@ A Node Boilerplate featuring:
 * Redux
 * Typescript 2.4
 * Webpack deployment
-* 
+*
 
 ## Code structure
 * Front end code is located under `./app`; it builds a webpack bundle
@@ -22,12 +22,31 @@ You have to run `npm install` from `./` and from `./app` so as to install the de
 
 ### Running a local Postgres database
 In order to run this projet locally, you need to have a local Postgres database populated with data that follows the schema which is expected by the backend.
-We installed and defined our local instance of Postgres as follows (you have to have Homebrew installed first):
-```
-brew install postgresql
-initdb /usr/local/var/postgres
-postgres -D /usr/local/var/postgres
-```
+We installed and defined our local instance of Postgres as follows:
+
+* First install Postgres locally:
+    * On linux distributions:
+    ```
+    apt-get install postgresql-9.6
+    ```
+    * On MacOS (you have to have Homebrew installed first):
+    ```
+    brew install postgresql
+    ```
+
+* Then init the db as follows:
+    * On linux distributions:
+    ```
+    initdb
+    postgres -D /usr/local/var/postgres
+    ```
+    * On MacOS (you have to have Homebrew installed first):
+    ```
+    initdb /usr/local/var/postgres
+    postgres -D /usr/local/var/postgres
+    ```
+Depending on your local settings, you might have to `sudo` these commands!
+
 Use this to create a local database to which the app will connect:
 ```
 createdb boilerplate
