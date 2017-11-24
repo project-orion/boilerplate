@@ -71,5 +71,3 @@ This command will populate your local Postgres instance with data; it will then 
 ## Running the app locally
 If you have already installed Postgres, simply start it using `postgres -D /usr/local/var/postgres`.
 Then start the local backend by running `npm run start-server` from `./` and finally start the local front-end by running `cd app/ && npm start`.
-
-Then start the local backend by running `npm run start-server` from `./` and finally start the local front-end by running `cd app/ && npm start`
